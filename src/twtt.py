@@ -1,12 +1,7 @@
-import string
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
-
-__author__="Rinat"
-__date__ ="$Jan 14, 2012 1:20:52 PM$"
 import sys
-import tokenize
+from NLPlib import *
 import re
+
 
 if __name__ == "__main__":
     input_fname = sys.argv[1]
@@ -14,7 +9,9 @@ if __name__ == "__main__":
     input_fpntr = open(input_fname, "r")
     output_fpntr = open(output_fname, "w")
     clitics = ["'m", "'re", "'s", "'ll", "'ve", "n't"]
-
+    
+    tagger = NLPlib()
+   
     for line in input_fpntr:
         #output_fpntr.write('|')
         #print tokenize.generate_tokens(line)
@@ -24,29 +21,41 @@ if __name__ == "__main__":
 
         newlinearray = re.findall('(.*?[.!?\n]+?)', nourls) #separate sentences in the tweet
 
-        tokens = [re.split(r" +", line.strip()) for line in newlinearray] # separate every word usinf space as separator
-        
+        tokens = [re.split(r" +", line.strip()) for line in newlinearray] # separate every word using space as separator
+
+        #extract punctiation and clitics
         nopunctiation = []
         for sentence in tokens:
             newsentence = []
             for word in sentence:
-                newtokens = re.split("('(?:m|re|s|ll|ve|t)|n't|&amp|&quote|[^\w\s])", word)
+                newtokens = re.split("('(?:m|re|s|ll|ve|t)|n't|&amp|&quot|[^\w\s])", word)
                 noempty = [newtoken.strip() for newtoken in newtokens if newtoken.strip() != '']
                 newsentence = newsentence + noempty
             if (newsentence != []): nopunctiation.append(newsentence)
 
 
 
-        print "--------------"
+        print "|"
         print origin
-        print tokens
-        print nopunctiation
-  #      print nolinks
-        #print nourls
-        #  print newlinearray
-    #    print noclitics
-     #   print tokens2
-     #   print "--------------"
+        #print tokens
+        #print nopunctiation
+        sent = nopunctiation
+        tags = [tagger.tag(sent) for sent in nopunctiation ]
+        #print tags
+
+        zipper = lambda x, y, z: [x[i]+y[i]+z[i] for i in range(0, len(x))]
+        zipped = [zipper(nopunctiation[i], ['/']*len(tags[i]), tags[i]) for i in range(0, len(tags))]
+        #print zipped
+
+        for sentence in zipped:
+            for i in range (0, len(sentence)):
+                sys.stdout.write(sentence[i])
+                if i != len(sentence)-1: sys.stdout.write(' ')
+            sys.stdout.write('\n')
+                
+
+
+        print '|'
         #output_fpntr.write(line)  
         #output_fpntr.write('|')
 
