@@ -11,25 +11,28 @@ if __name__ == "__main__":
     clitics = ["'m", "'re", "'s", "'ll", "'ve", "n't"]
     
     tagger = NLPlib()
-   
+    print tagger.tag(['/'])
     for line in input_fpntr:
         #output_fpntr.write('|')
         #print tokenize.generate_tokens(line)
         origin = line
+
+        line = re.sub(r'&quot|&amp', '', line)
+        line = re.sub(r'\. *?\. *?\.', ' &ellipsis ', line)
         nolinks = re.sub(r'<(.*) .*?>.*?</\1>', '', line) #remove html tags
         nourls = re.sub(r'(?:http://|ftp://|www\.)\S+\.\S+', '', nolinks) #remove urls
 
-        newlinearray = re.findall('(.*?[.!?\n]+?)', nourls) #separate sentences in the tweet
+        newlinearray = re.findall('([^.]*?[.!?\n]+)', nourls) #separate sentences in the tweet
 
         tokens = [re.split(r" +", line.strip()) for line in newlinearray] # separate every word using space as separator
 
-        #extract punctiation and clitics
+        #extract words, punctiation and clitics
         nopunctiation = []
         for sentence in tokens:
             newsentence = []
             for word in sentence:
-                newtokens = re.split("('(?:m|re|s|ll|ve|t)|n't|&amp|&quot|[^\w\s])", word)
-                noempty = [newtoken.strip() for newtoken in newtokens if newtoken.strip() != '']
+                newtokens = re.split("('(?:m|re|s|ll|ve|t)|n't|&ellipsis|[^\w\s])", word)
+                noempty = [re.sub(r'&ellipsis', '...', newtoken.strip()) for newtoken in newtokens if newtoken.strip() != '']
                 newsentence = newsentence + noempty
             if (newsentence != []): nopunctiation.append(newsentence)
 
