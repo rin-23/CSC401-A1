@@ -2,7 +2,6 @@ import sys
 from NLPlib import *
 import re
 
-
 if __name__ == "__main__":
     input_fname = sys.argv[1]
     output_fname = sys.argv[2]
@@ -13,10 +12,9 @@ if __name__ == "__main__":
     tagger = NLPlib()
     print tagger.tag(['/'])
     for line in input_fpntr:
-        #output_fpntr.write('|')
-        #print tokenize.generate_tokens(line)
-        origin = line
+        output_fpntr.write('|')
 
+        origin = line
         line = re.sub(r'&quot|&amp', '', line)
         line = re.sub(r'\. *?\. *?\.', ' &ellipsis ', line)
         nolinks = re.sub(r'<(.*) .*?>.*?</\1>', '', line) #remove html tags
