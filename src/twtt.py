@@ -9,7 +9,7 @@ if __name__ == "__main__":
     
     tagger = NLPlib()
     for line in input_fpntr:
-        output_fpntr.write('|\n')
+        #output_fpntr.write('|\n')
         #output_fpntr.write("ORIGINAL: " + line)
         
         line = re.sub(r'&quot|&amp', '', line) #get rid of quot and amp
@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 if i != len(sentence) - 1: output_fpntr.write(' ')
             output_fpntr.write('\n')
                 
-        #output_fpntr.write('|\n')
+        output_fpntr.write('|\n')
 
     #close file pointers
     input_fpntr.close()
