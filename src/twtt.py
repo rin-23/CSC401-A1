@@ -20,6 +20,8 @@ if __name__ == "__main__":
         line = re.sub(r'@?<(.*) .*?>.*?</\1>', '', line) #remove html tags
         line = re.sub(r'(?:http://|ftp://|www\.)\S+\.\S+', '', line) #remove urls
 
+
+        #DONT FORGET TO ADD SUPPORT FOR " after end of sentece!!!
         newlinearray = re.findall('([^.]*?[.!?\n]+)', line) #separate sentences in the tweet
 
         tokens = [re.split(r" +", line.strip()) for line in newlinearray] # separate every word using space as separator
