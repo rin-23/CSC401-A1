@@ -2,6 +2,9 @@ import sys
 from NLPlib import *
 import re
 
+#!!!!!!!!!Also consider tags as <a/>
+
+
 if __name__ == "__main__":
     input_fpntr = open(sys.argv[1], "r")
     output_fpntr = open(sys.argv[2], "w")
