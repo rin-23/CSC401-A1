@@ -9,12 +9,11 @@ resource_filenames = ["First-person", "Second-person", "Third-person", "Coordina
                       "Dashes", "Parenthesis", "Ellipses", "Common-nouns", "Proper-nouns", "Adverbs",
                       "wh-words", "Slang"]
 
-
 def processTweetFile(twt_fpointer):
     twt_text = twt_fpointer.read()
     tweets = twt_text.split('|\n') #split into tweet
     tweets.pop() #remove last element since its an empty string
-
+    
     twt_array = []
     for twt in tweets: 
         sentences = twt.split('\n') #split into sentences
@@ -22,14 +21,14 @@ def processTweetFile(twt_fpointer):
         tokens = map(lambda x: x.split(' '), sentences) #split into tokens
         twt_array.append(tokens) 
 
-    return twt_array
+    return twt_array 
 
 def processResources():
     #Initialize resource to count First person pronouns
     for resource in resource_filenames:
         words = open("./Wordlists/"+resource).read().split('\n')
         words.pop()
-        resources[resource] = map(lambda x : x.lower(), words)
+        resources[resource] = map(lambda x : x.lower(), words)  
 
 def countAppearance(list, search_items):
     count = 0
@@ -43,21 +42,28 @@ def create_arff(output_file, atribute_list):
 
     for atr in resource_filenames:
         arff_file.write("@attribute " + atr + " numeric\n")
+    
+    arff_file.write("@attribute " + "Upper-case-words\n")
+    arff_file.write("@attribute " + "Average-sentence-length\n")
+    arff_file.write("@attribute " + "Average-token-length\n")
+    arff_file.write("@attribute " + "Number-of-sentences\n")
+    arff_file.write("@attribute " + "Classname\n")
 
     arff_file.write("\n@data\n")
 
     for cls in atribute_list:
         for atr in resource_filenames:
             arff_file.write(str(cls[atr]) + ",")
+        arff_file.write(str(cls["Upper-case-words"]) + ",")
+        arff_file.write(str(cls["Average-sentence-length"]) + ",")
+        arff_file.write(str(cls["Average-token-length"]) + ",")
+        arff_file.write(str(cls["Number-of-sentences"]) + ",")
         arff_file.write(cls["Classname"] + "\n")
 
     arff_file.close()
 
-
-
-
 if __name__ == "__main__":
-    result = []
+    result = []      
     processResources() #get all resources
 
     numberOfTweets = -1

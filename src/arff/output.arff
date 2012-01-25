@@ -16,7 +16,12 @@
 @attribute Adverbs numeric
 @attribute wh-words numeric
 @attribute Slang numeric
+@attribute Upper-case-words
+@attribute Average-sentence-length
+@attribute Average-token-length
+@attribute Number-of-sentences
+@attribute Classname
 
 @data
-1491,1207,623,1044,715,133,660,961,945,302,337,8024,2560,1628,298,846,pop
-65,92,97,240,75,19,410,434,142,17,1,2499,2967,213,42,49,nytimes
+1491,1207,623,1044,715,133,660,961,945,302,337,8024,2560,1628,298,846,3753,8,3,4358,pop
+65,92,97,240,75,19,410,434,142,17,1,2499,2967,213,42,49,770,8,4,1379,nytimes
