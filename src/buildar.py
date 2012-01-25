@@ -1,15 +1,14 @@
 import sys
 import re
 import os.path
-from NLPlib import *
 
-tagger = NLPlib()
 resources = {} #contains resources to perform counts
 feature_counts = {}
 resource_filenames = ["First-person", "Second-person", "Third-person", "Coordinating-Conjuction", 
                       "Past-tense-verbs", "Future-tense-verbs", "Commas", "Colons-semi-colons",
                       "Dashes", "Parenthesis", "Ellipses", "Common-nouns", "Proper-nouns", "Adverbs",
                       "wh-words", "Slang"]
+
 
 def processTweetFile(twt_fpointer):
     twt_text = twt_fpointer.read()
@@ -31,39 +30,72 @@ def processResources():
         words = open("./Wordlists/"+resource).read().split('\n')
         words.pop()
         resources[resource] = map(lambda x : x.lower(), words)
-        feature_counts[resource] = 0
 
 def countAppearance(list, search_items):
     count = 0
     for item in search_items: count += list.count(item)
     return count
 
+
+def create_arff(output_file, atribute_list):
+    arff_file = open(output_file, 'w')
+    arff_file.write("@relation Twitter\n\n")
+
+    for atr in resource_filenames:
+        arff_file.write("@attribute " + atr + " numeric\n")
+
+    arff_file.write("\n@data\n")
+
+    for cls in atribute_list:
+        for atr in resource_filenames:
+            arff_file.write(str(cls[atr]) + ",")
+        arff_file.write(cls["Classname"] + "\n")
+
+    arff_file.close()
+
+
+
+
 if __name__ == "__main__":
+    result = []
     processResources() #get all resources
 
     numberOfTweets = -1
     classes = []
+    classname = ""
     if (sys.argv[1].startswith('-')): 
         numberOfTweets = int(sys.argv[1][1:])
-        classes = sys.argv[2:]
+        classes = sys.argv[2:-1]
     else:
-        classes = sys.argv[1:]
+        classes = sys.argv[1:-1]
+
+    output_file = sys.argv[-1]
 
     print str(numberOfTweets)
+    
     for c in classes:
         classNameMatchObject = re.match(r"(?P<classname>.*?):(?P<tweetfiles>.*)", c)
         if classNameMatchObject != None:
             classname = classNameMatchObject.group('classname')
             tweetfiles = classNameMatchObject.group('tweetfiles').split('+')
             twt_array = []
-            for tweetfile in tweetfiles:
+            for tweetfile in tweetfiles: 
                 twt_array = twt_array + processTweetFile(open(tweetfile, 'r'))
         else:
             base_c = os.path.basename(c)
             classname = base_c.split('.twt')[0]
             twt_array = processTweetFile(open(c, 'r'))
-                 
-        count = 0
+
+        for key in resource_filenames: feature_counts[key] = 0
+        feature_counts["Upper-case-words"] = 0
+        feature_counts["Total-sentence-length"] = 0
+        feature_counts["Number-of-sentences"] = 0
+        feature_counts["Total-token-length"] = 0
+        feature_counts["Number-of-tokens"] = 0
+        feature_counts["Average-sentence-length"] = 0
+        feature_counts["Average-token-length"] = 0
+
+        
         for twt in twt_array:
             for sentence in twt:
                 lowercase_sentence = map(lambda x : x.lower(), sentence)
@@ -112,23 +144,35 @@ if __name__ == "__main__":
                                 feature_counts["Future-tense-verbs"] += 1
 
                 #count words in upper case
-                feature_counts["Upper-case-words"] = 0
                 for i in range(len(words)):
                     if len(words) > 1:
                         if sentence[i].isupper():
                             feature_counts["Upper-case-words"] += 1
 
+                #count total length of sentences
+                feature_counts["Total-sentence-length"] += len(sentence)
 
+                #count number of sentences
+                feature_counts["Number-of-sentences"] += 1
 
+                #TO DO: Do you caount 'll as a token
+                #count total length of tokens
+                for i in range(len(sentence)):
+                    #TO DO: find out how to type allt ypes of pucntioans
+                    if re.match(r"[#$.,:()\'\"]", tags[i]) == None:
+                        feature_counts["Total-token-length"] += len(words[i])
+                        feature_counts["Number-of-tokens"] += 1
 
+        feature_counts["Average-sentence-length"] = int(feature_counts["Total-sentence-length"]) / int(feature_counts["Number-of-sentences"])
+        feature_counts["Average-token-length"] = int(feature_counts["Total-token-length"]) / int(feature_counts["Number-of-tokens"])
+        feature_counts["Classname"] = classname
 
+        result.append(feature_counts.copy())
+        #print feature_counts
+        feature_counts.clear()
 
-
-
-        print feature_counts
-
-
-
+    print result
+    create_arff(output_file, result)
 
                 
 
