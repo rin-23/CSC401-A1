@@ -54,6 +54,7 @@ def create_arff(output_file, atribute_list):
     for cls in atribute_list:
         for atr in resource_filenames:
             arff_file.write(str(cls[atr]) + ",")
+
         arff_file.write(str(cls["Upper-case-words"]) + ",")
         arff_file.write(str(cls["Average-sentence-length"]) + ",")
         arff_file.write(str(cls["Average-token-length"]) + ",")

@@ -15,7 +15,7 @@ if __name__ == "__main__":
         #output_fpntr.write('|\n')
         #output_fpntr.write("ORIGINAL: " + line)
         
-        line = re.sub(r'&quot|&amp', '', line) #get rid of quot and amp
+        line = re.sub(r'&quot;|&amp;', '', line) #get rid of quot and amp
         line = re.sub(r'\. *?\. *?\.', ' &ellipsis ', line) # substitute ... with &elipsis to avoid multiple periods
         line = re.sub(r'@?<(.*) .*?>.*?</\1>', '', line) #remove html tags
         line = re.sub(r'(?:http://|ftp://|www\.)\S+\.\S+', '', line) #remove urls
