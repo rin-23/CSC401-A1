@@ -18,14 +18,14 @@ Do/VBP follow/VB for/IN live/VB updates/NNS from/IN inside/IN the/DT Perugia/NN 
 |
 Two/CD injured/VBN as/IN vehicle/NN hits/NNS shop/NN
 |
-M25/NN closed/VBD clockwise/RB at/IN J8/NN in/IN Surrey/NNP after/IN lorry/NN hit/VBD barrier/NN ;/: spilt/NN diesel/NN along/IN carriageway/NN ,/, now/RB being/VBG resurfaced/VBD
+M25/NN closed/VBD clockwise/RB at/IN J8/NN in/IN Surrey/NNP after/IN lorry/NN hit/VBD barrier/NN spilt/NN diesel/NN along/IN carriageway/NN ,/, now/RB being/VBG resurfaced/VBD
 |
 India/NNP PM/NNP assurance/NN on/IN graft/NN law/NN
 |
-'/POS It/PRP 's/POS quite/RB intimidating/VBG ,/, '/POS says/VBZ Laura/NNP of/IN her/PRP$ York/NNP Minster/NNP gig/NN ./.
+'/POS It/PRP 's/POS quite/RB intimidating/VBG ,'/NN says/VBZ Laura/NNP of/IN her/PRP$ York/NNP Minster/NNP gig/NN ./.
 So/RB why/WRB are/VBP performers/NNS moving/VBG into/IN churches/NNS ?/.
 |
-Expected/VBN 200/NN ,/, 000/NN payment/NN to/TO North/NNP Yorkshire/NNP Police/NNP 's/POS outgoing/JJ chief/JJ Grahame/NN Maxwell/NNP is/VBZ not/RB a/DT '/POS pay/VB -/: off/IN '/POS ,/, authority/NN says/VBZ
+Expected/VBN 200/NN ,/, 000/NN payment/NN to/TO North/NNP Yorkshire/NNP Police/NNP 's/POS outgoing/JJ chief/JJ Grahame/NN Maxwell/NNP is/VBZ not/RB a/DT '/POS pay/VB -/: off/IN ',/NN authority/NN says/VBZ
 |
 Five/CD jailed/VBN for/IN 4/NN ./.
 5m/NN phone/NN fraud/NN
@@ -56,7 +56,7 @@ UK/NNP economy/NN grew/VBD by/IN better/JJR than/IN expected/VBN 0/NN ./.
 5/NN %/NN in/IN three/CD months/NNS to/TO end/NN of/IN September/NNP -/: official/JJ ONS/NN figures/NNS ./.
 More/RBR soon/RB
 |
-BBC/NNP cuts/NNS :/: Technicians/NNPS '/POS union/NN Bectu/NN says/VBZ the/DT BBC/NNP ;/: are/VBP destroying/VBG jobs/NNS ,/, and/CC destroying/VBG the/DT BBC/NNP ;/:
+BBC/NNP cuts/NNS :/: Technicians/NNPS '/POS union/NN Bectu/NN says/VBZ the/DT BBC/NNP are/VBP destroying/VBG jobs/NNS ,/, and/CC destroying/VBG the/DT BBC/NNP
 |
 US/PRP man/NN 's/POS pied/VBN for/IN Syrian/JJ agency/NN '/POS
 |
@@ -129,11 +129,11 @@ Australian/JJ actress/NNS Cilento/NN dies/VBZ
 |
 Major/NNP fire/NN starts/VBZ in/IN city/NN centre/NN
 |
-'/POS Extent/NN of/IN hijack/NN ;/: ransom/NN round/NN Horn/NNP of/IN Africa/NNP is/VBZ a/DT complete/JJ stain/NN on/IN our/PRP$ world/NN ,/, a/DT complete/JJ insult/NN '/POS -/: UK/NNP PM/NNP Cameron/NNP
+'/POS Extent/NN of/IN hijack/NN ransom/NN round/NN Horn/NNP of/IN Africa/NNP is/VBZ a/DT complete/JJ stain/NN on/IN our/PRP$ world/NN ,/, a/DT complete/JJ insult/NN '/POS -/: UK/NNP PM/NNP Cameron/NNP
 |
-President/NNP Obama/NN :/: Killing/VBG of/IN Islamist/NN cleric/NN Anwar/NN al/JJ -/: Awlaki/NN proves/VBZ ;/: no/DT safe/JJ haven/NN ;/: in/IN the/DT world/NN for/IN al/JJ -/: Qaeda/NN operatives/NNS
+President/NNP Obama/NN :/: Killing/VBG of/IN Islamist/NN cleric/NN Anwar/NN al/JJ -/: Awlaki/NN proves/VBZ no/DT safe/JJ haven/NN in/IN the/DT world/NN for/IN al/JJ -/: Qaeda/NN operatives/NNS
 |
-Germany/NNP wo/MD n't/RB prosper/VB if/IN Europe/NNP remains/VBZ in/IN a/DT '/POS bad/JJ way/NN '/POS ,/, German/JJ Chancellor/NNP ,/, Angela/NNP Merkel/NNP tells/VBZ Bundestag/NNP MPs/NNS
+Germany/NNP wo/MD n't/RB prosper/VB if/IN Europe/NNP remains/VBZ in/IN a/DT '/POS bad/JJ way/NN ',/NN German/JJ Chancellor/NNP ,/, Angela/NNP Merkel/NNP tells/VBZ Bundestag/NNP MPs/NNS
 |
 VIDEO/NN :/: Sprinter/NN ,/, 100/NN ,/, sets/NNS running/VBG record/NN
 |
@@ -154,7 +154,7 @@ GM/NNP mosquitoes/NNS show/NN fever/NN promise/NN
 |
 Wada/NNP asks/VBZ BOA/NN to/TO review/NN ban/NN rule/NN
 |
-'/POS A/DT pyrrhic/NN victory/NN '/POS ,/, claims/NNS BSkyB/NN 's/POS David/NNP Elstien/NN ,/, as/IN EU/NN ruling/VBG wo/MD n't/RB allow/VB Karen/NNP Murphy/NNP to/TO show/NN matches/VBZ to/TO customers/NNS
+'/POS A/DT pyrrhic/NN victory/NN ',/NN claims/NNS BSkyB/NN 's/POS David/NNP Elstien/NN ,/, as/IN EU/NN ruling/VBG wo/MD n't/RB allow/VB Karen/NNP Murphy/NNP to/TO show/NN matches/VBZ to/TO customers/NNS
 |
 '/POS Bad/JJ bank/NN '/POS plan/NN for/IN Dexia/NN assets/NNS
 |
@@ -214,7 +214,7 @@ In/IN pictures/NNS :/: Sir/NNP Jimmy/NNP Savile/NN
 |
 Qantas/NNP boss/NNS threatened/VBN in/IN job/NN row/NN
 |
-Vincent/NNP '/POS viewed/VBN violent/JJ web/NN porn/NN '/POS ./.
+Vincent/NNP '/POS viewed/VBN violent/JJ web/NN porn/NN './CD
 Full/JJ report/NN :/:
 |
 Kenya/NNP air/NN raid/NN targets/NNS militants/NNS
@@ -243,7 +243,7 @@ Prison/NNP term/NN for/IN Facebook/NN bigot/NN
 |
 McCartney/NNP to/TO marry/VB for/IN third/JJ time/NN
 |
-UK/NNP PM/NNP Cameron/NNP says/VBZ EU/NN heads/NNS made/VBN progress/NNS on/IN bank/NN recapitalisation/NN plan/NN :/: '/POS It/PRP was/VBD n't/RB watered/VBN down/RB ;/: has/VBZ now/RB been/VBN agreed/VBD '/POS
+UK/NNP PM/NNP Cameron/NNP says/VBZ EU/NN heads/NNS made/VBN progress/NNS on/IN bank/NN recapitalisation/NN plan/NN :/: '/POS It/PRP was/VBD n't/RB watered/VBN down/RB has/VBZ now/RB been/VBN agreed/VBD '/POS
 |
 NZ/NN ship/NN oil/NN -/: pumping/VBG resumes/VBZ
 |
@@ -267,7 +267,7 @@ Unions/NNS going/VBG to/TO court/NN over/IN '/POS biggest/JJS robbery/NN of/IN a
 |
 FIFA/NN Ethics/NNP Committee/NNP has/VBZ opened/VBD ethics/NNS proceedings/NNS against/IN ten/CD more/JJR Caribbean/NNP Football/NNP Union/NNP officials/NNS
 |
-The/DT world/NN 's/POS 's/POS even/RB billionth/NN baby/NN '/POS ,/, a/DT girl/NN called/VBN Nargis/NNS ,/, has/VBZ been/VBN born/VBN in/IN ,/, a/DT child/NN rights/NNS group/NN says/VBZ
+The/DT world/NN 's/POS 's/POS even/RB billionth/NN baby/NN ',/NN a/DT girl/NN called/VBN Nargis/NNS ,/, has/VBZ been/VBN born/VBN in/IN ,/, a/DT child/NN rights/NNS group/NN says/VBZ
 |
 Academy/NNP calls/VBZ for/IN Iran/NNP releases/NNS
 |
@@ -281,7 +281,7 @@ Gove/NN denies/VBZ EU/NN vote/NN '/POS humiliation/NN '/POS
 |
 Riot/NN plea/NN man/NN accused/VBN of/IN attack/NN
 |
-;/: RBS/NNP is/VBZ well/RB capitalised/VBN and/CC liquid/JJ ;/: says/VBZ Osborne/NNP -/: ie/NN he/PRP does/VBZ n't/RB want/VBP to/TO inject/VB any/DT more/JJR taxpayers/NNS '/POS money/NN into/IN it/PRP
+RBS/NNP is/VBZ well/RB capitalised/VBN and/CC liquid/JJ says/VBZ Osborne/NNP -/: ie/NN he/PRP does/VBZ n't/RB want/VBP to/TO inject/VB any/DT more/JJR taxpayers/NNS '/POS money/NN into/IN it/PRP
 |
 Warning/VBG over/IN university/NN teaching/VBG
 |
@@ -334,7 +334,7 @@ Focus/NNP on/IN PM/NNP 's/POS conference/NN showing/VBG
 MPs/NNS will/MD debate/NN an/DT proposal/JJ shortly/RB ./.
 The/DT BBC/NNP 's/POS Nick/NNP Robinson/NNP on/IN why/WRB it/PRP 's/POS a/DT matter/NN of/IN trust/NN for/IN Tories/NNPS
 |
-Moscow/NNP says/VBZ it/PRP sees/VBZ a/DT '/POS clear/JJ anti/IN -/: Russian/NNP subtext/NN '/POS in/IN trial/JJ ;/: conviction/NN of/IN Ukraine/NNP 's/POS ex/FW -/: PM/NNP Yulia/NN
+Moscow/NNP says/VBZ it/PRP sees/VBZ a/DT '/POS clear/JJ anti/IN -/: Russian/NNP subtext/NN '/POS in/IN trial/JJ conviction/NN of/IN Ukraine/NNP 's/POS ex/FW -/: PM/NNP Yulia/NN
 |
 Mexico/NNP 's/POS navy/NN discovers/VBZ 32/NN bodies/NNS
 |
@@ -368,7 +368,7 @@ Haqqanis/NNS deny/VB killing/VBG Afghan/JJ aide/NN
 |
 Decline/NN in/IN terror/NN stop/VB and/CC search/NN
 |
-Half/NN of/IN workers/NNS are/VBP ;/: ill/JJ -/: treated/VBN ;/:
+Half/NN of/IN workers/NNS are/VBP ill/JJ -/: treated/VBN
 |
 US/PRP Senate/NNP backs/NNS currency/NN debate/NN
 |
@@ -411,12 +411,12 @@ Chelsea/NNP 5/NN -/: 0/NN Genk/NN
 |
 EU/NN postpones/NNS Ukraine/NNP leader/NN visit/NN
 |
-Defence/NN Secretary/NNP Liam/NN Fox/NNP '/POS does/VBZ an/DT excellent/JJ job/NN '/POS ;/: '/POS gives/VBZ good/JJ leadership/NN '/POS at/IN MoD/NN ,/, PM/NNP David/NNP Cameron/NNP says/VBZ
+Defence/NN Secretary/NNP Liam/NN Fox/NNP '/POS does/VBZ an/DT excellent/JJ job/NN '/POS '/POS gives/VBZ good/JJ leadership/NN '/POS at/IN MoD/NN ,/, PM/NNP David/NNP Cameron/NNP says/VBZ
 |
 Police/NNP clear/JJ Dale/NNP Farm/NNP barricades/NNS
 |
 David/NNP Cameron/NNP :/: '/POS We/PRP do/VBP n't/RB know/VB when/WRB treaty/NN change/NN will/MD happen/VB ./.
-We/PRP will/MD get/VB best/JJS deal/JJ for/IN UK/NNP '/POS ./.
+We/PRP will/MD get/VB best/JJS deal/JJ for/IN UK/NNP './CD
 Live/NNP coverage/NN
 |
 Deadly/RB storm/NN hits/NNS Central/JJ America/NNP
@@ -454,7 +454,7 @@ Amanda/NN Knox/NNP arrives/VBZ in/IN Perugia/NN court/NN for/IN last/JJ day/NN o
 Man/NN is/VBZ charged/VBN after/IN city/NN murder/NN
 |
 Oil/NNP giant/NN BP/NNP reports/NNS profits/NNS of/IN 3/NN ./.
-2bn/NN (/( $/$ 5/NN ./.
+2bn/NN ($/NN 5/NN ./.
 1bn/NN )/) in/IN three/CD months/NNS to/TO Sept/NNP ,/, compared/VBN with/IN 1/NN ./.
 3bn/NN for/IN same/JJ period/NN last/JJ year/NN
 |
@@ -472,7 +472,7 @@ Newly/RB -/: published/VBN documents/NNS show/NN News/NNP International/JJ knew/
 |
 Morales/NNS offers/VBZ Bolivia/NNP road/NN talks/NNS
 |
-VIDEO/NN :/: 'S/VBZ hocktober/NN '/POS :/: Snow/NNP hits/NNS US/PRP East/NNP Coast/NNP
+VIDEO/NN :/: 'S/VBZ hocktober/NN ':/NN Snow/NNP hits/NNS US/PRP East/NNP Coast/NNP
 |
 Live/NNP -/: Indian/NNP Grand/NNP Prix/NNP practice/NN
 |
@@ -484,7 +484,7 @@ VIDEO/NN :/: Homeless/NNP quake/NN survivors/NNS face/NN cold/JJ
 |
 Three/CD hurt/VBN in/IN festival/JJ explosion/NN
 |
-Eurostar/NN rail/NN services/NNS in/IN UK/NNP suspended/VBN '/POS due/JJ to/TO a/DT person/NN on/IN the/DT high/JJ speed/VBN line/NN '/POS ./.
+Eurostar/NN rail/NN services/NNS in/IN UK/NNP suspended/VBN '/POS due/JJ to/TO a/DT person/NN on/IN the/DT high/JJ speed/VBN line/NN './CD
 Police/NNP are/VBP investigating/VBG ./.
 More/RBR soon/RB :/:
 |
@@ -507,7 +507,7 @@ Rare/JJ moth/NN established/VBN in/IN the/DT UK/NNP
 |
 Black/NNP '/POS used/VBN road/NN near/IN body/NN find/VB '/POS
 |
-Man/NN in/IN military/JJ uniform/NN kills/VBZ two/CD foreign/JJ soldiers/NNS in/IN attack/NN on/IN coalition/NN ;/: Afghan/JJ troops/NNS in/IN south/RB ,/, says/VBZ ./.
+Man/NN in/IN military/JJ uniform/NN kills/VBZ two/CD foreign/JJ soldiers/NNS in/IN attack/NN on/IN coalition/NN Afghan/JJ troops/NNS in/IN south/RB ,/, says/VBZ ./.
 |
 RT/NN :/: 'T/NN he/PRP answer/NN is/VBZ to/TO build/VB more/JJR homes/NNS '/POS says/VBZ on/IN report/NN on/IN unaffordable/JJ private/JJ
 |
@@ -532,7 +532,7 @@ In/IN pictures/NNS :/: Dale/NNP Farm/NNP evictions/NNS
 |
 Recovery/NNP in/IN storm/NN -/: hit/VBD Philippines/NNP
 |
-City/NNP of/IN London/NNP '/POS under/IN attack/NN '/POS ,/, Cameron/NNP says/VBZ ./.
+City/NNP of/IN London/NNP '/POS under/IN attack/NN ',/NN Cameron/NNP says/VBZ ./.
 Nick/NNP Robinson/NNP on/IN why/WRB PM/NNP wants/VBZ Commission/NNP to/TO protect/VB UK/NNP interests/NNS
 |
 Norway/NNP U21/NN 1/NN -/: 2/NN England/NNP U21/NN
@@ -581,7 +581,7 @@ Concern/NN at/IN abuse/NN report/NN 's/POS ecrecy/NN '/POS
 |
 Tunisian/NNP government/NN to/TO impose/VB curfew/NN in/IN town/NN of/IN Sidi/NN Bouzid/NN -/: birthplace/NN of/IN Arab/NNP spring/VBG -/: after/IN latest/JJS protests/NNS -/: Reu/NN
 |
-Local/JJ government/NN pension/NN proposals/NNS are/VBP 's/POS ketchy/NN ,/, ill/JJ thought/VBD out/IN ,/, and/CC give/VB us/PRP no/DT cause/NN to/TO call/VB off/IN our/PRP$ industrial/JJ action/NN '/POS ,/, GMB/NN union/NN says/VBZ
+Local/JJ government/NN pension/NN proposals/NNS are/VBP 's/POS ketchy/NN ,/, ill/JJ thought/VBD out/IN ,/, and/CC give/VB us/PRP no/DT cause/NN to/TO call/VB off/IN our/PRP$ industrial/JJ action/NN ',/NN GMB/NN union/NN says/VBZ
 |
 leader/NN Khaled/VBN Meshaal/JJ :/: '/POS Our/PRP$ happiness/NNS wo/MD n't/RB be/VB complete/JJ until/IN all/DT our/PRP$ prisoners/NNS are/VBP released/VBN from/IN Israeli/JJ cells/NNS '/POS
 |
@@ -589,7 +589,7 @@ Huntley/NNP throat/NN slasher/NN given/VBN life/NN
 |
 Tory/NNP attacks/NNS NHS/NN 's/POS caremongering/VBG '/POS
 |
-'/POS '/POS -/: The/DT cult/NN of/IN Steve/NNP Jobs/NNP ,/, the/DT way/NN people/NNS are/VBP grieving/VBG ,/, and/CC how/WRB some/DT thought/NN they/PRP knew/VBD him/PRP
+''/'' -/: The/DT cult/NN of/IN Steve/NNP Jobs/NNP ,/, the/DT way/NN people/NNS are/VBP grieving/VBG ,/, and/CC how/WRB some/DT thought/NN they/PRP knew/VBD him/PRP
 |
 House/NNP prices/NNS '/POS lacking/VBG direction/NN '/POS
 |
@@ -712,7 +712,7 @@ Suicide/NN attack/NN on/IN troops/NNS in/IN Kabul/NNP
 |
 Police/NNP say/VBP 23/NN arrests/NNS today/NN at/IN site/NN in/IN Essex/NNP ,/, for/IN offences/NNS such/JJ as/IN violent/JJ disorder/NN and/CC breach/NN of/IN the/DT peace/NN
 |
-ONS/NN predicts/VBZ UK/NNP population/NN 't/NN o/IN be/VB 70m/NN by/IN 2027/NN '/POS ;/: 44/NN %/NN of/IN increase/NN over/IN next/JJ 10yrs/NNS could/MD be/VB down/RB to/TO net/JJ migration/NN
+ONS/NN predicts/VBZ UK/NNP population/NN 't/NN o/IN be/VB 70m/NN by/IN 2027/NN ';/NN 44/NN %/NN of/IN increase/NN over/IN next/JJ 10yrs/NNS could/MD be/VB down/RB to/TO net/JJ migration/NN
 |
 Noxious/JJ gas/NNS officers/NNS in/IN hospital/JJ
 |
@@ -749,7 +749,7 @@ Sportsday/NN Live/NNP -/: latest/JJS updates/NNS
 |
 Tabak/NNP 'm/VBP ay/NN serve/VB time/NN '/POS in/IN Holland/NNP
 |
-Police/NNP say/VBP death/NN of/IN teenage/JJ girl/NN in/IN Airdrie/NN ,/, Scotland/NNP ,/, after/IN using/VBG hair/NN colouring/VBG dye/NN is/VBZ still/RB '/POS unexplained/JJ '/POS ./.
+Police/NNP say/VBP death/NN of/IN teenage/JJ girl/NN in/IN Airdrie/NN ,/, Scotland/NNP ,/, after/IN using/VBG hair/NN colouring/VBG dye/NN is/VBZ still/RB '/POS unexplained/JJ './CD
 More/RBR soon/RB
 |
 Crews/NNP tackle/VB paper/NN factory/NN blaze/NN
@@ -775,7 +775,7 @@ US/PRP passes/VBZ South/NNP Korea/NNP trade/NN deal/JJ
 |
 Scotland/NNP 's/POS leading/VBG Roman/NNP Catholic/NNP ,/, Cardinal/JJ Keith/NNP O/NNP '/POS Brien/NNP ,/, says/VBZ he/PRP welcomes/VBZ statement/NN from/IN British/JJ PM/NNP on/IN reforming/VBG Act/NNP of/IN Settlement/NN
 |
-Murdered/VBN British/JJ student/NN Meredith/NNP Kercher/NN '/POS has/VBZ been/VBN forgotten/VBN in/IN all/DT this/DT '/POS ,/, her/PRP$ sister/NN Stephanie/NNP says/VBZ ./.
+Murdered/VBN British/JJ student/NN Meredith/NNP Kercher/NN '/POS has/VBZ been/VBN forgotten/VBN in/IN all/DT this/DT ',/NN her/PRP$ sister/NN Stephanie/NNP says/VBZ ./.
 Watch/NN LIVE/VB :/:
 |
 Ultraviolet/NN link/NN to/TO cold/JJ winters/NNS
@@ -786,7 +786,7 @@ Karzai/NN agrees/VBZ alliance/NN with/IN India/NNP
 |
 Jamaica/NNP PM/NNP :/: Coke/NNP case/NN 't/NN ook/NN toll/NN '/POS
 |
-Jump/NN in/IN profits/NNS shows/VBZ '/POS absolutely/RB crass/JJ behaviour/NN '/POS of/IN UK/NNP energy/NN firms/NNS ,/, says/VBZ Tim/NNP Yeo/NN MP/NNP ,/, Chair/NNP of/IN Energy/NNP ;/: Climate/NNP Change/NNP Select/NNP Committee/NNP
+Jump/NN in/IN profits/NNS shows/VBZ '/POS absolutely/RB crass/JJ behaviour/NN '/POS of/IN UK/NNP energy/NN firms/NNS ,/, says/VBZ Tim/NNP Yeo/NN MP/NNP ,/, Chair/NNP of/IN Energy/NNP Climate/NNP Change/NNP Select/NNP Committee/NNP
 |
 '/POS Broadband/NN giant/NN '/POS set/VBN for/IN launch/VB
 |
@@ -808,7 +808,7 @@ Severed/VBN heads/NNS left/VBN in/IN Mexico/NNP City/NNP
 |
 Promise/NNP to/TO clean/JJ up/IN 't/NN oxic/NN '/POS uni/NN
 |
-likely/RB to/TO receive/VB next/JJ bailout/NN instalment/NN '/POS in/IN early/RB November/NNP '/POS ,/, troika/NN (/( EU/NN ,/, IMF/NNP ,/, ECB/NN )/) inspectors/NNS say/VBP ./.
+likely/RB to/TO receive/VB next/JJ bailout/NN instalment/NN '/POS in/IN early/RB November/NNP ',/NN troika/NN (/( EU/NN ,/, IMF/NNP ,/, ECB/NN )/) inspectors/NNS say/VBP ./.
 More/RBR soon/RB :/:
 |
 Live/NNP -/: Indian/NNP Grand/NNP Prix/NNP practice/NN
@@ -847,7 +847,7 @@ Occupy/VB London/NNP protest/NN in/IN the/DT City/NNP
 |
 Glasgow/NNP 's/POS 2014/NN Games/NNPS '/POS on/IN target/NN '/POS
 |
-If/IN goverment/NN 's/POS revised/VBN proposals/NNS on/IN pensions/NNS is/VBZ '/POS as/IN good/JJ as/IN it/PRP gets/VBZ '/POS ,/, public/JJ sector/NN strike/NN will/MD go/VB ahead/RB :/: PCS/NNP union/NN
+If/IN goverment/NN 's/POS revised/VBN proposals/NNS on/IN pensions/NNS is/VBZ '/POS as/IN good/JJ as/IN it/PRP gets/VBZ ',/NN public/JJ sector/NN strike/NN will/MD go/VB ahead/RB :/: PCS/NNP union/NN
 |
 West/NNP Brom/NN 0/NN -/: 2/NN Liverpool/NNP
 |
@@ -965,7 +965,7 @@ Scottish/NNP fishing/VBG to/TO receive/VB 12m/NN
 |
 Row/NNP over/IN visa/NN scam/NN responsibility/NN
 |
-'/POS If/IN the/DT euro/NN fails/VBZ ,/, Europe/NNP fails/VBZ ,/, '/POS German/JJ Chancellor/NNP Angela/NNP Merkel/NNP tells/VBZ Bundestag/NNP MPs/NNS
+'/POS If/IN the/DT euro/NN fails/VBZ ,/, Europe/NNP fails/VBZ ,'/NN German/JJ Chancellor/NNP Angela/NNP Merkel/NNP tells/VBZ Bundestag/NNP MPs/NNS
 |
 Zambia/NNP anti/IN -/: corruption/NN boss/NNS fired/VBN
 |
@@ -973,7 +973,7 @@ Benefit/NNP cut/VB '/POS will/MD hurt/VBN worst/JJS off/IN '/POS
 |
 Chelsea/NNP to/TO host/NN Liverpool/NNP in/IN Cup/NNP
 |
-UK/NNP House/NNP of/IN Lords/NNPS votes/NNS against/IN amendment/NN which/WDT sought/VBD to/TO block/NN Health/NNP ;/: Social/JJ Care/NNP Bill/NNP receiving/VBG a/DT second/JJ reading/VBG
+UK/NNP House/NNP of/IN Lords/NNPS votes/NNS against/IN amendment/NN which/WDT sought/VBD to/TO block/NN Health/NNP Social/JJ Care/NNP Bill/NNP receiving/VBG a/DT second/JJ reading/VBG
 |
 Energy/NNP firms/NNS '/POS profit/NN margins/NNS soar/VB
 |
@@ -992,7 +992,7 @@ Conservative/NNP MP/NNP Liam/NN Fox/NNP entitled/VBN to/TO 17/NN ,/, 206/NN pay/
 Crisis/NNP talks/NNS before/IN G20/NN meeting/VBG
 |
 Royal/JJ Dutch/JJ Shell/NNP net/JJ profit/NN doubles/NNS to/TO 4/NN ./.
-35bn/NN (/( $/$ 6/NN ./.
+35bn/NN ($/NN 6/NN ./.
 98bn/NN )/) for/IN period/NN from/IN June/NNP to/TO Sept/NNP ,/, compared/VBN to/TO same/JJ time/NN last/JJ year/NN
 |
 Julian/NNP Barnes/NNP leads/VBZ Booker/NNP race/NN
@@ -1006,17 +1006,17 @@ Irish/JJ lawyer/NN Pat/NNP Finucane/NNP ,/, NI/NN Secretary/NNP Owen/NNP Paterso
 |
 founder/NN Julian/NNP Assange/NN arrives/VBZ at/IN High/NNP Court/NNP in/IN London/NNP to/TO learn/VB if/IN he/PRP has/VBZ won/VBD his/PRP$ bid/NN to/TO block/NN extradition/NN
 |
-Defence/NN Secretary/NNP Liam/NN Fox/NNP '/POS has/VBZ some/DT very/RB big/JJ questions/NNS to/TO answer/NN '/POS ,/, Shadow/NNP Defence/NN Secretary/NNP Jim/NNP Murphy/NNP says/VBZ
+Defence/NN Secretary/NNP Liam/NN Fox/NNP '/POS has/VBZ some/DT very/RB big/JJ questions/NNS to/TO answer/NN ',/NN Shadow/NNP Defence/NN Secretary/NNP Jim/NNP Murphy/NNP says/VBZ
 |
 Sacked/VBD #/# 999/NN operator/NN was/VBD '/POS rude/JJ and/CC condescending/JJ '/POS to/TO woman/NN who/WP called/VBN to/TO say/VBP her/PRP$ husband/NN had/VBD attacked/VBN her/PRP$ ,/, IPCC/NN says/VBZ
 |
 Jackson/NNP '/POS warned/VBD about/IN sedative/NN '/POS
 |
-Amanda/NN Knox/NNP ;/: Raffaele/NN Sollecito/NN enter/VB Perugia/NN courtroom/NN to/TO hear/VB verdicts/NNS in/IN their/PRP$ appeals/NNS against/IN murder/NN convictions/NNS
+Amanda/NN Knox/NNP Raffaele/NN Sollecito/NN enter/VB Perugia/NN courtroom/NN to/TO hear/VB verdicts/NNS in/IN their/PRP$ appeals/NNS against/IN murder/NN convictions/NNS
 |
 Schumacher/NNP heads/NNS Vettel/NN in/IN Korea/NNP
 |
-'T/NN o/IN rich/JJ people/NNS who/WP avoid/VB paying/VBG taxes/NNS ,/, we/PRP 'll/MD find/VB you/PRP and/CC find/VB your/PRP$ money/NN '/POS ,/, chancellor/NN tells/VBZ Tory/NNP conference/NN
+'T/NN o/IN rich/JJ people/NNS who/WP avoid/VB paying/VBG taxes/NNS ,/, we/PRP 'll/MD find/VB you/PRP and/CC find/VB your/PRP$ money/NN ',/NN chancellor/NN tells/VBZ Tory/NNP conference/NN
 |
 US/PRP ,/, Canada/NNP ,/, Germany/NNP voted/VBD against/IN Palestinian/JJ Unesco/NN bid/NN ./.
 Russia/NNP ,/, China/NNP ,/, France/NNP voted/VBD in/IN favour/NN ./.
@@ -1025,7 +1025,7 @@ UK/NNP abstained/VBD -/: Reuters/NNP
 US/PRP President/NNP Obama/NN says/VBZ death/NN of/IN Col/NN 'm/VBP arks/NNS the/DT end/NN of/IN a/DT long/JJ and/CC painful/JJ chapter/NN for/IN the/DT people/NNS of/IN '/POS
 |
 Good/JJ morning/VBG from/IN ./.
-From/IN today/NN our/PRP$ editors/NNS will/MD be/VB taking/VBG over/IN tweets/NNS here/RB (/( during/IN daytime/JJ hours/NNS )/) ,/, replacing/VBG auto/NN -/: tweeted/VBN headlines/NNS
+From/IN today/NN our/PRP$ editors/NNS will/MD be/VB taking/VBG over/IN tweets/NNS here/RB (/( during/IN daytime/JJ hours/NNS ),/NN replacing/VBG auto/NN -/: tweeted/VBN headlines/NNS
 |
 Three/CD men/NNS ,/, reported/VBD to/TO have/VBP been/VBN dressed/VBN in/IN fake/JJ police/NN uniforms/NNS ,/, have/VBP robbed/VBN a/DT security/NN guard/NN at/IN a/DT bank/NN in/IN Glasgow/NNP
 |
@@ -1074,7 +1074,7 @@ Total/JJ data/NNS throughput/NN in/IN excess/JJ of/IN 140/NN Gbps/NNS ./.
 |
 Eurozone/NN production/NN on/IN the/DT rise/NN
 |
-'/POS Chief/NNP concern/NN is/VBZ St/NNP Paul/NNP 's/POS be/VB allowed/VBN to/TO operate/VB as/IN normally/RB as/IN possible/JJ '/POS ,/, says/VBZ Dean/NNP as/IN enters/VBZ 3rd/NN day/NN
+'/POS Chief/NNP concern/NN is/VBZ St/NNP Paul/NNP 's/POS be/VB allowed/VBN to/TO operate/VB as/IN normally/RB as/IN possible/JJ ',/NN says/VBZ Dean/NNP as/IN enters/VBZ 3rd/NN day/NN
 |
 EU/NN summit/NN deal/JJ '/POS is/VBZ done/VBN '/POS with/IN three/CD -/: pronged/VBN response/NN to/TO economic/JJ crisis/NNS ,/, officials/NNS in/IN Brussels/NNP say/VBP -/: PA/NNP ./.
 More/RBR soon/RB
@@ -1105,9 +1105,8 @@ blog/NN to/TO follow/VB
 |
 Men/NNS admit/VB killing/VBG Reamonn/NN Gormley/NN
 |
-;/: We/PRP have/VBP a/DT zero/CD tolerance/NN approach/NN to/TO corruption/NN ,/, ;/: says/VBZ International/JJ Development/NNP Secretary/NNP Andrew/NNP ./.
-;/: We/PRP wo/MD n't/RB risk/NN taxpayers/NNS '/POS money/NN ./.
-;/:
+We/PRP have/VBP a/DT zero/CD tolerance/NN approach/NN to/TO corruption/NN ,/, says/VBZ International/JJ Development/NNP Secretary/NNP Andrew/NNP ./.
+We/PRP wo/MD n't/RB risk/NN taxpayers/NNS '/POS money/NN ./.
 |
 Road/NNP grit/NN supplies/NNS '/POS highest/JJS ever/RB '/POS
 |
@@ -1132,9 +1131,9 @@ transitional/JJ authorities/NNS have/VBP captured/VBN country/NN 's/POS ex/FW -/
 India/NNP incentives/NNS for/IN big/JJ families/NNS
 |
 '/POS I/PRP 'm/VBP glad/JJ we/PRP 've/VBP reached/VBN this/DT day/NN ./.
-You/PRP will/MD soon/RB get/VB Gilad/NN back/RB '/POS ,/, 's/POS PM/NNP Netanyahu/NN tells/VBZ family/RB
+You/PRP will/MD soon/RB get/VB Gilad/NN back/RB ',/NN 's/POS PM/NNP Netanyahu/NN tells/VBZ family/RB
 |
-PM/NNP ;/: absolutely/RB has/VBZ full/JJ confidence/NN ;/: in/IN Defence/NN
+PM/NNP absolutely/RB has/VBZ full/JJ confidence/NN in/IN Defence/NN
 |
 Uefa/NN acts/NNS on/IN Bulgaria/NNP -/: England/NNP tie/NN
 |
@@ -1167,7 +1166,7 @@ Woman/NNP guilty/JJ of/IN pensioner/NN murder/NN
 |
 Joking/VBG '/POS key/JJ to/TO toddler/NN learning/VBG '/POS
 |
-RT/NN :/: India/NNP ;/: Afghanistan/NNP agree/VB strategic/JJ partnership/NN to/TO strengthen/VB economic/JJ ;/: security/NN ties/NNS ,/, Indian/NNP PM/NNP says/VBZ
+RT/NN :/: India/NNP Afghanistan/NNP agree/VB strategic/JJ partnership/NN to/TO strengthen/VB economic/JJ security/NN ties/NNS ,/, Indian/NNP PM/NNP says/VBZ
 |
 UK/NNP population/NN is/VBZ on/IN course/NN to/TO reach/VB 70/NN million/CD within/IN 16/NN years/NNS ,/, ONS/NN figures/NNS reveal/VB ./.
 More/RBR soon/RB
@@ -1206,7 +1205,7 @@ Iran/NNP airline/NN hit/VBD by/IN US/PRP sanctions/NNS
 |
 International/JJ Criminal/JJ Court/NNP of/IN Justice/NNP has/VBZ had/VBD '/POS informal/JJ contact/NN '/POS with/IN Col/NN 's/POS son/NN Saif/NN al/JJ -/: Islam/NNP
 |
-leader/NN Ed/NNP Miliband/NN says/VBZ rising/VBG UK/NNP unemployment/NN shows/VBZ the/DT government/NN 's/POS '/POS plan/NN is/VBZ n't/RB working/VBG '/POS ./.
+leader/NN Ed/NNP Miliband/NN says/VBZ rising/VBG UK/NNP unemployment/NN shows/VBZ the/DT government/NN 's/POS '/POS plan/NN is/VBZ n't/RB working/VBG './CD
 Watch/NN LIVE/VB :/:
 |
 Colombia/NNP leader/NN scraps/NNS spy/NN agency/NN
@@ -1253,7 +1252,7 @@ Suspect/JJ in/IN shooting/VBG of/IN 8/NN people/NNS at/IN hair/NN salon/NN in/IN
 |
 Syrian/JJ army/NN 's/POS hell/NN Homs/NNS district/NN '/POS
 |
-Col/NN Gaddafi/NN was/VBD killed/VBN in/IN gunfight/NN between/IN his/PRP$ supporters/NNS ;/: NTC/NNP fighters/NNS after/IN his/PRP$ capture/VB ,/, NTC/NNP officials/NNS say/VBP -/: Reuters/NNP
+Col/NN Gaddafi/NN was/VBD killed/VBN in/IN gunfight/NN between/IN his/PRP$ supporters/NNS NTC/NNP fighters/NNS after/IN his/PRP$ capture/VB ,/, NTC/NNP officials/NNS say/VBP -/: Reuters/NNP
 |
 PM/NNP pledges/NNS infrastructure/NN boost/VB
 |
@@ -1291,7 +1290,7 @@ Wales/NNP fret/VBP over/IN Priestland/NN injury/NN
 |
 Police/NNP ombudsman/NN chief/JJ speaks/VBZ out/IN
 |
-'/POS I/PRP hope/NN this/DT deal/JJ will/MD help/VB conclusion/NN of/IN peace/NN deal/JJ between/IN Israelis/NNPS ;/: Palestinians/NNPS '/POS ,/, Gilad/NN tells/VBZ Egyptian/JJ TV/NN
+'/POS I/PRP hope/NN this/DT deal/JJ will/MD help/VB conclusion/NN of/IN peace/NN deal/JJ between/IN Israelis/NNPS Palestinians/NNPS ',/NN Gilad/NN tells/VBZ Egyptian/JJ TV/NN
 |
 founder/NN Julian/NNP says/VBZ '/POS arbitrary/JJ and/CC unlawful/JJ financial/JJ blockade/NN '/POS destroyed/VBN 95/NN %/NN of/IN group/NN 's/POS revenue/NN
 |
@@ -1315,7 +1314,7 @@ Key/NNP US/PRP particle/NN machine/NN shut/VBN down/RB
 |
 Inmate/NNP admits/VBZ Huntley/NNP murder/NN bid/NN
 |
-Steve/NNP Jobs/NNP was/VBD '/POS completely/RB inspirational/JJ ,/, and/CC an/DT amazing/JJ man/NN '/POS ,/, Sir/NNP Clive/NNP Sinclair/NNP tells/VBZ BBC/NNP News/NNP
+Steve/NNP Jobs/NNP was/VBD '/POS completely/RB inspirational/JJ ,/, and/CC an/DT amazing/JJ man/NN ',/NN Sir/NNP Clive/NNP Sinclair/NNP tells/VBZ BBC/NNP News/NNP
 |
 Former/JJ police/NN detective/NN Peter/NNP Foster/NNP ,/, 35/NN ,/, charged/VBN with/IN murder/NN of/IN his/PRP$ partner/NN Det/NN Con/NNP Heather/NNP Cooper/NNP ,/, Surrey/NNP Police/NNP say/VBP
 |
@@ -1410,7 +1409,7 @@ Ten/CD years/NNS of/IN war/NN ,/, 10/NN years/NNS of/IN inquests/NNS
 |
 Lease/NNP deal/JJ warning/VBG for/IN homeowners/NNS
 |
-Approval/JJ granted/VBN for/IN 's/POS first/JJ commercial/JJ mine/NN ,/, in/IN Loch/NN Lomond/NN ;/: Trossachs/NNS National/JJ Park/NNP
+Approval/JJ granted/VBN for/IN 's/POS first/JJ commercial/JJ mine/NN ,/, in/IN Loch/NN Lomond/NN Trossachs/NNS National/JJ Park/NNP
 |
 Queen/NNP opens/VBZ Commonwealth/NNP summit/NN
 |
@@ -1534,7 +1533,7 @@ VIDEO/NN :/: Business/NNP booming/JJ at/IN Paris/NNP pawn/NN shop/NN
 |
 Civil/NNP servants/NNS have/VBP begun/VBN interviewing/VBG Adam/NNP Werritty/NN over/IN his/PRP$ working/VBG relationship/NN with/IN UK/NNP Defence/NN Secretary/NNP Liam/NN Fox/NNP
 |
-Energy/NNP 'm/VBP arket/NN is/VBZ n't/RB working/VBG '/POS ,/, must/MD be/VB opened/VBD up/IN to/TO '/POS bring/VB prices/NNS down/RB '/POS ,/, Shadow/NNP Energy/NNP Sec/NN Caroline/NNP Flint/NNP on/IN bbc/NN ./.
+Energy/NNP 'm/VBP arket/NN is/VBZ n't/RB working/VBG ',/NN must/MD be/VB opened/VBD up/IN to/TO '/POS bring/VB prices/NNS down/RB ',/NN Shadow/NNP Energy/NNP Sec/NN Caroline/NNP Flint/NNP on/IN bbc/NN ./.
 in/IN //NN nQ26ZX/NN
 |
 NTC/NNP Chairman/NNP Mustafa/NNP Abdel/NN Jalil/NN asks/VBZ to/TO stay/VB in/IN until/IN end/NN of/IN year/NN
@@ -1591,7 +1590,7 @@ Syria/NNP 'm/VBP ust/NN stop/VB '/POS civilian/JJ deaths/NNS
 |
 Owner/NN of/IN Orange/NNP and/CC T/NN -/: Mobile/NNP planning/VBG to/TO cut/VB 550/NN jobs/NNS following/VBG a/DT review/NN of/IN its/PRP$ business/NNS -/: PA/NNP
 |
-Tory/NNP backbencher/NN Mark/NNP Pritchard/NN says/VBZ he/PRP '/POS d/FW defy/VB the/DT whip/NN on/IN vote/NN :/: ;/: This/DT is/VBZ about/IN country/NN first/JJ ,/, party/NN second/JJ and/CC career/NN last/JJ ;/:
+Tory/NNP backbencher/NN Mark/NNP Pritchard/NN says/VBZ he/PRP '/POS d/FW defy/VB the/DT whip/NN on/IN vote/NN :/: This/DT is/VBZ about/IN country/NN first/JJ ,/, party/NN second/JJ and/CC career/NN last/JJ
 |
 Brewery/NNP boss/NNS backs/NNS minimum/JJ price/NN
 |
@@ -1627,11 +1626,11 @@ Kenya/NNP hunts/VBZ kidnappers/NNS in/IN Somalia/NNP
 |
 Only/RB two/CD streets/NNS left/VBN in/IN Libyan/JJ city/NN of/IN which/WDT have/VBP not/RB been/VBN taken/VBN by/IN NTC/NNP forces/NNS ,/, BBC/NNP understands/VBZ
 |
-Jailing/VBG of/IN Real/JJ IRA/NNP 's/POS Michael/NNP Campbell/NNP means/VBZ GB/NN ;/: NI/NN 's/POS ignificantly/RB safer/JJR '/POS ,/, Northern/NNP Ireland/NNP Sec/NN on/IN 's/POS
+Jailing/VBG of/IN Real/JJ IRA/NNP 's/POS Michael/NNP Campbell/NNP means/VBZ GB/NN NI/NN 's/POS ignificantly/RB safer/JJR ',/NN Northern/NNP Ireland/NNP Sec/NN on/IN 's/POS
 |
 Live/NNP -/: Japanese/JJ Grand/NNP Prix/NNP
 |
-MP/NNP 's/POS wife/NN Christine/NNP Hemming/VBG receives/VBZ 9/NN month/NN suspended/VBN sentence/NN ;/: ordered/VBD to/TO pay/VB 1/NN ,/, 000/NN costs/NNS for/IN stealing/VBG kitten/NN ./.
+MP/NNP 's/POS wife/NN Christine/NNP Hemming/VBG receives/VBZ 9/NN month/NN suspended/VBN sentence/NN ordered/VBD to/TO pay/VB 1/NN ,/, 000/NN costs/NNS for/IN stealing/VBG kitten/NN ./.
 bbc/NN ./.
 in/IN //NN bsYxBA/NN
 |
@@ -1652,7 +1651,7 @@ Fears/NNS grow/VB of/IN US/PRP '/POS on/IN wrong/JJ track/NN '/POS
 Debt/NN woes/NNS '/POS danger/NN to/TO all/DT Europe/NNP '/POS
 |
 How/WRB long/JJ did/VBD it/PRP take/VB the/DT world/NN 's/POS population/NN to/TO hit/VBD 1bn/NN ?/.
-Then/RB 2/NN ,/, 3/NN ;/: now/RB 7bn/NN ./.
+Then/RB 2/NN ,/, 3/NN now/RB 7bn/NN ./.
 And/CC where/WRB is/VBZ it/PRP heading/VBG ?/.
 Amazing/JJ graphics/NNS :/:
 |
@@ -1678,12 +1677,12 @@ Cricket/NNP agent/NN Mazhar/NN Majeed/VBN also/RB pleaded/VBD guilty/JJ over/IN 
 |
 Google/NN third/JJ -/: quarter/NN profits/NNS jump/NN
 |
-All/DT US/PRP troops/NNS to/TO leave/VB by/IN end/NN of/IN 2011/NN and/CC '/POS America/NNP 's/POS war/NN will/MD be/VB over/IN '/POS ,/, President/NNP says/VBZ ./.
+All/DT US/PRP troops/NNS to/TO leave/VB by/IN end/NN of/IN 2011/NN and/CC '/POS America/NNP 's/POS war/NN will/MD be/VB over/IN ',/NN President/NNP says/VBZ ./.
 More/RBR soon/RB
 |
 Hughes/NNP gives/VBZ up/IN licence/NN after/IN ban/NN
 |
-'/POS I/PRP sincerely/RB regret/VBP that/IN Dr/NNP felt/VBD he/PRP had/VBD to/TO resign/VB '/POS ,/, says/VBZ Harvey/NNP Boulter/NN of/IN Porton/NN Group/NNP
+'/POS I/PRP sincerely/RB regret/VBP that/IN Dr/NNP felt/VBD he/PRP had/VBD to/TO resign/VB ',/NN says/VBZ Harvey/NNP Boulter/NN of/IN Porton/NN Group/NNP
 |
 Call/VB for/IN PM/NNP Hillsborough/NNP apology/NN
 |
@@ -1721,9 +1720,9 @@ Flooding/VBG 't/NN o/IN hit/VBD Bangkok/NNP areas/NNS '/POS
 |
 Death/NN of/IN Col/NN confirmed/VBD by/IN Prime/NNP Minister/NNP Jibril/NNP ./.
 |
-'/POS If/IN we/PRP change/NN course/NN on/IN reducing/VBG deficit/NN ,/, we/PRP '/POS d/FW end/NN up/IN with/IN interest/NN rates/NNS like/IN Portugal/JJ '/POS ,/, PM/NNP David/NNP Cameron/NNP tells/VBZ
+'/POS If/IN we/PRP change/NN course/NN on/IN reducing/VBG deficit/NN ,/, we/PRP '/POS d/FW end/NN up/IN with/IN interest/NN rates/NNS like/IN Portugal/JJ ',/NN PM/NNP David/NNP Cameron/NNP tells/VBZ
 |
-London/NNP Underground/JJ drivers/NNS to/TO ballot/NN for/IN industrial/JJ action/NN in/IN a/DT dispute/NN over/IN 's/POS afety/NN '/POS ,/, the/DT RMT/NN union/NN says/VBZ ./.
+London/NNP Underground/JJ drivers/NNS to/TO ballot/NN for/IN industrial/JJ action/NN in/IN a/DT dispute/NN over/IN 's/POS afety/NN ',/NN the/DT RMT/NN union/NN says/VBZ ./.
 More/RBR soon/RB :/:
 |
 IPCC/NN investigates/VBZ complaint/NN Merseyside/NN Police/NNP officer/NN involved/VBN in/IN alleged/VBN conspiracy/NN to/TO pervert/NN course/NN of/IN justice/NN
@@ -1875,7 +1874,7 @@ Bailiffs/NNS wait/VB to/TO enter/VB Dale/NNP Farm/NNP
 |
 Hughes/NNP honour/NN to/TO rest/NN near/IN Eliot/NNP
 |
-Greek/NNP officials/NNS say/VBP a/DT man/NN has/VBZ died/VBD ;/: at/IN least/JJS 16/NN injured/VBN after/IN clashes/NNS during/IN anti/IN -/: austerity/NN protests/NNS in/IN Athens/NNP
+Greek/NNP officials/NNS say/VBP a/DT man/NN has/VBZ died/VBD at/IN least/JJS 16/NN injured/VBN after/IN clashes/NNS during/IN anti/IN -/: austerity/NN protests/NNS in/IN Athens/NNP
 |
 A/DT 7/NN ./.
 2/NN magnitude/NN killed/VBN more/JJR than/IN 200/NN people/NNS in/IN -/: these/DT images/NNS show/NN rescuers/NNS trying/VBG to/TO reach/VB survivors/NNS
@@ -1901,7 +1900,7 @@ Election/NNP count/NN improvements/NNS call/VB
 |
 Travellers/NNS could/MD go/VB to/TO car/NN parks/NNS
 |
-University/NNP of/IN abolished/VBN in/IN merger/NN with/IN Trinity/NNP St/NNP David/NNP ;/: Swansea/NNP Metropolitan/NNP ./.
+University/NNP of/IN abolished/VBN in/IN merger/NN with/IN Trinity/NNP St/NNP David/NNP Swansea/NNP Metropolitan/NNP ./.
 Chairman/NNP Hugh/NNP Thomas/NNP resigns/VBZ
 |
 VIDEO/NN :/: Cliff/NNP fall/NN film/NN was/VBD '/POS career/NN highlight/VB '/POS
@@ -1975,7 +1974,7 @@ Lecturers/NNS '/POS pension/NN action/NN resumes/VBZ
 |
 Tottenham/NN boss/NNS Harry/NNP Redknapp/NN due/JJ to/TO leave/VB hospital/JJ in/IN next/JJ 48/NN hours/NNS after/IN successful/JJ surgery/NN to/TO unblock/VB arteries/NNS in/IN his/PRP$ heart/NN
 |
-'/POS You/PRP reform/NN and/CC change/NN Europe/NNP by/IN leading/VBG it/PRP not/RB leaving/VBG it/PRP ,/, '/POS Deputy/NNP PM/NNP Nick/NNP Clegg/NN says/VBZ after/IN vote/NN ./.
+'/POS You/PRP reform/NN and/CC change/NN Europe/NNP by/IN leading/VBG it/PRP not/RB leaving/VBG it/PRP ,'/NN Deputy/NNP PM/NNP Nick/NNP Clegg/NN says/VBZ after/IN vote/NN ./.
 |
 Ex/FW -/: Gaddafi/NN fighters/NNS rebel/NN in/IN Mali/NNP
 |
@@ -1996,7 +1995,7 @@ Teaching/VBG awards/NNS for/IN two/CD schools/NNS
 |
 '/POS Dip/VB '/POS in/IN car/NN insurance/NN premiums/NNS
 |
-PM/NNP Cameron/NNP 's/POS hould/NN stop/VB negotiating/VBG with/IN backbenchers/NNS ;/: start/VB fighting/VBG for/IN the/DT national/JJ interest/NN '/POS ,/, Labour/NNP 's/POS Ed/NNP Miliband/NN
+PM/NNP Cameron/NNP 's/POS hould/NN stop/VB negotiating/VBG with/IN backbenchers/NNS start/VB fighting/VBG for/IN the/DT national/JJ interest/NN ',/NN Labour/NNP 's/POS Ed/NNP Miliband/NN
 |
 Bomb/VB blasts/NNS hit/VBD Iraq/NNP 's/POS Sadr/NN City/NNP
 |
@@ -2085,11 +2084,11 @@ Davenport/NNP :/: '/POS A/DT life/NN of/IN adventure/NN '/POS
 |
 VIDEO/NN :/: BBC/NNP reports/NNS from/IN inside/IN Sirte/NN
 |
-The/DT Conservative/NNP Party/NNP is/VBZ suffering/VBG a/DT '/POS collective/JJ nervous/JJ breakdown/NN over/IN Europe/NNP ,/, '/POS says/VBZ Labour/NNP leader/NN Ed/NNP Miliband/NN
+The/DT Conservative/NNP Party/NNP is/VBZ suffering/VBG a/DT '/POS collective/JJ nervous/JJ breakdown/NN over/IN Europe/NNP ,'/NN says/VBZ Labour/NNP leader/NN Ed/NNP Miliband/NN
 |
 Papers/NNP focus/NNS on/IN Liam/NN Fox/NNP 's/POS friend/NN
 |
-Man/NN City/NNP striker/NN Carlos/NNP Tevez/NN fined/VBN 4/NN weeks/NNS '/POS wages/NNS ;/: suspended/VBN for/IN 2/NN weeks/NNS as/IN club/NN finds/VBZ him/PRP guilty/JJ of/IN misconduct/NN
+Man/NN City/NNP striker/NN Carlos/NNP Tevez/NN fined/VBN 4/NN weeks/NNS '/POS wages/NNS suspended/VBN for/IN 2/NN weeks/NNS as/IN club/NN finds/VBZ him/PRP guilty/JJ of/IN misconduct/NN
 |
 A/DT feed/VBN of/IN automatically/RB tweeted/VBN headlines/NNS will/MD continue/VB 24/NN //NN 7/NN at/IN ./.
 |
@@ -2105,7 +2104,7 @@ Could/MD growth/NN of/IN 0/NN ./.
 5/NN %/NN be/VB best/JJS the/DT UK/NNP sees/VBZ for/IN a/DT while/IN ?/.
 BBC/NNP 's/POS Stephanie/NNP Flanders/NNP considers/VBZ the/DT historical/JJ context/NN
 |
-S/NNP ;/: P/NN lowers/VBZ Spain/NNP 's/POS credit/NN rating/VBG
+SP/NNP lowers/VBZ Spain/NNP 's/POS credit/NN rating/VBG
 |
 'S/VBZ orrow/NN '/POS of/IN Tabak/NNP 's/POS ex/FW for/IN family/RB
 |

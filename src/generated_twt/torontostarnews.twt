@@ -519,7 +519,7 @@ Hbert/NN :/: Ontario/NNP vote/NN most/RBS important/JJ in/IN recent/JJ history/N
 |
 Deadly/RB crash/NN caused/VBN by/IN street/NN racing/VBG
 |
-;/: It/PRP is/VBZ over/IN ./.
+It/PRP is/VBZ over/IN ./.
 Give/VB up/IN ./.
 Cameron/NNP ,/, Sarkozy/NN warn/VB Gadhafi/NNP loyalists/NNS on/IN visit/NN to/TO Tripoli/NNP
 |
@@ -1317,7 +1317,7 @@ Palumbo/NNP pleads/VBZ guilty/JJ to/TO stalking/VBG Twain/NNP
 |
 Haiti/NNP braces/NNS for/IN possible/JJ hurricane/NN :/: A/DT hurricane/NN may/MD hit/VBD Haiti/NNP this/DT week/NN ,/, adding/VBG to/TO the/DT woes/NNS of/IN a/DT nation/NN where/WRB cho/NN .../:
 |
-S/NNP ;/: P/NN fires/NNS back/RB amid/IN criticism/NN over/IN downgrade/NN
+SP/NNP fires/NNS back/RB amid/IN criticism/NN over/IN downgrade/NN
 |
 TSX/NN rally/RB continues/VBZ but/CC Dow/NNP plunges/NNS
 |
@@ -1433,7 +1433,7 @@ air/NN show/NN
 McGuinty/NN demands/NNS Hudak/NN apologize/VB for/IN foreigners/NNS comments/NNS
 |
 Another/DT serial/JJ killer/NN in/IN B/NNP ./.
-C/NN ./. ?/.
+C/NN .?/CD
 :/: The/DT RCMP/NN are/VBP looking/VBG for/IN a/DT serial/JJ killer/NN after/IN finding/VBG similarities/NNS in/IN the/DT cases/NNS o/IN .../:
 |
 Group/NNP develops/VBZ facial/JJ recognition/NN software/NN to/TO name/NN London/NNP rioters/NNS
@@ -1881,7 +1881,7 @@ Downed/VBD pole/NN causing/VBG 't/NN raffic/NN nightmare/NN '/POS on/IN Queen/NN
 W/NNP ./.
 |
 Frustrated/JJ by/IN felines/NNS ?/.
-Call/VB the/DT cat/NN whisperer/NN :/: ;/: Cat/NNP whisperer/NN ;/: helps/VBZ clients/NNS negotiate/VB perils/NNS of/IN cat/NN ownership/NN ,/, .../:
+Call/VB the/DT cat/NN whisperer/NN :/: Cat/NNP whisperer/NN helps/VBZ clients/NNS negotiate/VB perils/NNS of/IN cat/NN ownership/NN ,/, .../:
 |
 Two/CD men/NNS hospitalized/VBN after/IN shooting/VBG
 |
@@ -1923,7 +1923,7 @@ Powerful/JJ 7/NN ./.
 |
 British/JJ mom/NN distraught/JJ after/IN turning/VBG in/IN daughter/NN over/IN riots/NNS
 |
-'T/NN heres/NNS no/DT closure/NN ,/, '/POS say/VBP families/NNS of/IN Canadian/JJ victims/NNS over/IN prisoner/NN release/NN
+'T/NN heres/NNS no/DT closure/NN ,'/NN say/VBP families/NNS of/IN Canadian/JJ victims/NNS over/IN prisoner/NN release/NN
 |
 Used/VBN hypodermic/JJ needles/NNS stolen/VBN from/IN Botox/NN clinic/NN
 |
@@ -2006,7 +2006,7 @@ Merkel/NNP :/: Europe/NNP needs/VBZ ability/NN to/TO restructure/VB countries/NN
 |
 Canada/NNP -/: U/NNP ./.
 S/NNP ./.
-price/NN gap/NN '/POS irritating/JJ ,/, '/POS Flaherty/NNP says/VBZ
+price/NN gap/NN '/POS irritating/JJ ,'/NN Flaherty/NNP says/VBZ
 |
 Full/JJ steam/NN ahead/RB at/IN cancelled/VBN Mississauga/NN gas/NNS plant/NN
 |

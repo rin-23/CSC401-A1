@@ -1,0 +1,26 @@
+@relation Twitter
+
+@attribute First-person numeric
+@attribute Second-person numeric
+@attribute Third-person numeric
+@attribute Coordinating-Conjuction numeric
+@attribute Past-tense-verbs numeric
+@attribute Future-tense-verbs numeric
+@attribute Commas numeric
+@attribute Colons-semi-colons numeric
+@attribute Dashes numeric
+@attribute Parenthesis numeric
+@attribute Ellipses numeric
+@attribute Common-nouns numeric
+@attribute Proper-nouns numeric
+@attribute Adverbs numeric
+@attribute wh-words numeric
+@attribute Slang numeric
+@attribute Upper-case-words
+@attribute Average-sentence-length
+@attribute Average-token-length
+@attribute Number-of-sentences
+@attribute Classname
+
+@data
+459,335,187,321,164,60,142,262,95,65,60,3317,622,482,153,121,1056,8,4,1426,aplusk
