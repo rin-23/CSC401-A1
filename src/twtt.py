@@ -32,6 +32,29 @@ def sub_html_special_char(newtoken):
     newtoken = re.sub("&mdash;", "--", newtoken)
     return newtoken
 
+def handle_ellipsis(line):
+    #mark the ellipsis that indicates the end of the sentece when
+    #it is not followed by the word with leading lowercase letter or a number
+
+    #print line.strip()
+    tokens = re.split("[ \t]+", line)
+    #print tokens
+
+    tokens_copy = tokens[:]
+
+    for i in range(len(tokens)):
+        if tokens[i].strip() == "&hellip;":
+            if i < len(tokens) - 1:
+                t = tokens[i+1][0]
+                if t.strip() != "":
+                    if not (t.isalpha() and t.islower()) and not t.isdigit():
+                        tokens_copy[i] += "\n"
+
+    #print tokens_copy
+    result =  " ".join(tokens_copy)
+    #print result
+   
+    return result
 
 if __name__ == "__main__":
     input_fpntr = open(sys.argv[1], "r")
@@ -39,10 +62,11 @@ if __name__ == "__main__":
     clitics = ["'m", "'re", "'s", "'ll", "'ve", "n't"]
     
     tagger = NLPlib()
+
     for line in input_fpntr:
-        output_fpntr.write('ORG:' + line + '\n') #TODO: delete
+        #output_fpntr.write('ORG:' + line + '\n') #TODO: delete
         
-        # substitute ...(ellipsis) with &hellip; to avoid multiple periods
+        #substitute ...(ellipsis) with &hellip; to avoid multiple periods
         line = re.sub("\.[ \t]?\.[ \t]?\.[ \t]?", " &hellip; ", line)
         #substitute em dash multiple dashes
         line = re.sub("--", " &mdash; ", line)
@@ -50,9 +74,10 @@ if __name__ == "__main__":
         line = remove_html_url(line)
         line = remove_html_special_char(line)
 
-        newlinearray = re.findall("[^.?!]+[.!?\r\n]+(?:(?:\s+[.!?\r\n]+)|\s*\")*", line) #separate sentences in the tweet
+        line = handle_ellipsis(line)
 
-        tokens = [re.split(" +", line.strip()) for line in newlinearray] # separate every word using space as separator
+        newlinearray = re.findall("[^.?!\n]+[.!?\r\n]+(?:(?:\s+[.!?\r\n]+)|[ \t]*\")*", line) #separate sentences in the tweet
+        tokens = [re.split("[ \t]+", line.strip()) for line in newlinearray] # separate every word using space as separator
 
         #extract words, punctiation and clitics
         nopunctiation = []

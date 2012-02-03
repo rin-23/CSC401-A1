@@ -1,0 +1,64 @@
+ORG:"Amazing !.?. ?? !! .     " we've ?? ?? .. ?  ?	! 	 ! " started... Can't wait to be back on tour I miss you all so much <a> I love Zheng </a> AAAAAA  <a>#Zheng</a> <a class="tweet-url username" href="/EdianB" rel="nofollow">Edian B Rinat love</a>: @<a class="tweet-url username" href="/ladygaga" rel="nofollow">ladygaga</a> how is the Born this way Ball planning going?
+started/VBD .../:
+ORG:in studio in finland...composing for haus fashion videos..can't wait for the show!
+in/IN studio/NN in/IN finland/NN .../: composing/VBG for/IN haus/NNS fashion/NN videos/NNS ./. ./.
+ORG:On G.O.A.T a Government Owned Territory in Space...120 SECONDS
+T/NN a/DT Government/NNP Owned/VBN Territory/NNP in/IN Space/NNP .../: 120/NN SECONDS/NNS
+ORG:Hmmmmm...I wonder if ill score tonight
+Hmmmmm/NN .../:
+ORG:op rehearsing for my video just dance and am now at wmc to perform at the Armani and nervous records party. But I am no nervous record!  ...
+.../:
+ORG:Support @<a class="tweet-url username" href="/ladygaga" rel="nofollow">ladygaga</a> and fight against the abolishment of the 'DON'T ASK, DON'T TELL' law ... <a href="http://twitition.com/vzkp6" target="_blank" class="tweet-url web" rel="nofollow">http://twitition.com/vzkp6</a> @<a class="tweet-url username" href="/TheReal_JakeK" rel="nofollow">TheReal_JakeK</a>
+Support/NNP and/CC fight/NN against/IN the/DT abolishment/NN of/IN the/DT '/POS DO/VB N'T/RB ASK/NNP ,/, DO/VB N'T/RB TELL/VB '/POS law/NN .../:
+ORG:Today I am so proud to be American. I wish I was home so I could throw a Parade. We are on the way...to full equal <a href="http://twitpic.com/3h99w1" target="_blank" class="tweet-url web" rel="nofollow">http://twitpic.com/3h99w1</a>
+We/PRP are/VBP on/IN the/DT way/NN .../: to/TO full/JJ equal/JJ
+ORG:Ladystarlightny...follow her twitter. Xx
+Ladystarlightny/NN .../: follow/VB her/PRP$ twitter/NN ./.
+ORG:Obsessing over my new muses. Miss you girls...you little monsters, be home soon xx in norway hustlin.
+Miss/NNP you/PRP girls/NNS .../: you/PRP little/JJ monsters/NNS ,/, be/VB home/NN soon/RB xx/NN in/IN norway/NN hustlin/NN ./.
+ORG:I have the greatest fans in the world. Last night in atlanta it was beer in one hand, glitter in the other, wigs, fasion...ure my everything
+Last/JJ night/NN in/IN atlanta/NN it/PRP was/VBD beer/NN in/IN one/CD hand/NN ,/, glitter/NN in/IN the/DT other/JJ ,/, wigs/NNS ,/, fasion/NN .../: ure/NN my/PRP$ everything/VBG
+ORG:Video debuted on Aussie Sunrise. The Haus is dancing!...&quot;Just a little homicidal soft porn on a Sunday morning&quot;- best quote ever
+.../: "/"
+ORG:4 shows in chicago. 2 private, 2 public Whole gang is here, planning away nervously for music video....and other april 1st shenanigans. Xx
+2/NN private/JJ ,/, 2/NN public/JJ Whole/JJ gang/NN is/VBZ here/RB ,/, planning/VBG away/RB nervously/RB for/IN music/NN video/NN .../: ./.
+ORG:Have an important announcement tonight on german tv Wetten Dass...watch little monsters...
+Have/VBP an/DT important/JJ announcement/NN tonight/RB on/IN german/NN tv/NN Wetten/FW Dass/FW .../: watch/VB little/JJ monsters/NNS .../:
+ORG:On my way to Fubar...waterloo baby.
+On/IN my/PRP$ way/NN to/TO Fubar/NN .../: waterloo/NN baby/NN ./.
+ORG:right..gaga turned 22..in a mirrored panty humping a miami gogo dancer at 2 am to the beat of my first single &quot;just dance&quot; best birthday ...
+in/IN a/DT mirrored/VBN panty/NN humping/VBG a/DT miami/NN gogo/NN dancer/NN at/IN 2/NN am/VBP to/TO the/DT beat/NN of/IN my/PRP$ first/JJ single/JJ "/" just/RB dance/NN "/" best/JJS birthday/NN .../:
+ORG:whoever stole my much music outfit, the haus curses you with a future of fashion travesties....i miss &amp; love my fans. see u soon in paris.
+whoever/WP stole/VBD my/PRP$ much/JJ music/NN outfit/NN ,/, the/DT haus/NNS curses/NNS you/PRP with/IN a/DT future/NN of/IN fashion/NN travesties/NNS .../: ./.
+ORG:sequin catsuit thats been painted to my tired little bod, post tommy boy party, where I met the incredible dj bob sinclair &quot;world! Hold  ...
+Hold/VB .../:
+ORG:me &quot; hello, my little fishy&quot; in his accent..I could cry disco mirrors. Yes and I am as shiny and ready as ever. Look out south beach. On ...
+On/IN .../:
+ORG:http://intersc ...
+http/NN :/: //NN //NN intersc/NN .../:
+ORG:Coffee and a ciggy in Denmark, making hair sculptures, writing music....I could find truth in this red lipstick all day. the joys of a wench
+Coffee/NNP and/CC a/DT ciggy/NN in/IN Denmark/NNP ,/, making/VBG hair/NN sculptures/NNS ,/, writing/VBG music/NN .../: ./.
+ORG:What an incredible day! Armani exchange party, I love you! Thank you so much for ur fabulous-esses and support of the fame. I met Sirius ...
+I/PRP met/VBD Sirius/NNS .../:
+ORG:En route airplane, back to london. Can't wait for paul o'grady...and to flutter around the beautiful city, I love u my amzing uk fans.
+Ca/MD n't/RB wait/VB for/IN paul/NN o/IN '/POS grady/NN .../: and/CC to/TO flutter/NN around/IN the/DT beautiful/JJ city/NN ,/, I/PRP love/NN u/PRP my/PRP$ amzing/VBG uk/NN fans/NNS ./.
+ORG:tonite is real! the entire LES family is 2gether!!!!!! get ready houston....its on!!!! cant wait!!!
+get/VB ready/JJ houston/NN .../: ./.
+ORG:Palm springs, for a little sunshine, and a whole lotta dinah. Listening to louis prima getting ready...cough syrup in my purse
+Listening/VBG to/TO louis/NNS prima/NN getting/VBG ready/JJ .../: cough/NN syrup/NN in/IN my/PRP$ purse/NN
+ORG:My sweet kitchener kiddies. U were lovely. Off to fubar for drinks with the haus...redwine and canada, where it all started. Xxgagaloo
+Off/IN to/TO fubar/NN for/IN drinks/NNS with/IN the/DT haus/NNS .../: redwine/NN and/CC canada/NN ,/, where/WRB it/PRP all/DT started/VBN ./.
+ORG:rds performance I had a blast ( amazing gay club..they dont eat but they love cake!) and thank u to my interscope team for my disco ball ...
+)/) and/CC thank/VB u/PRP to/TO my/PRP$ interscope/NN team/NN for/IN my/PRP$ disco/NN ball/NN .../:
+ORG:Turn on the view...about to give america the flu
+Turn/VB on/IN the/DT view/NN .../: about/IN to/TO give/VB america/NN the/DT flu/NN
+ORG:How I love london, paparazzi video is so beautiful...i could die.
+How/WRB I/PRP love/NN london/NN ,/, paparazzi/NN video/NN is/VBZ so/RB beautiful/JJ .../: i/NN could/MD die/VB ./.
+ORG:<a href="http://twitpic.com/32cmyc" target="_blank" class="tweet-url web" rel="nofollow">http://twitpic.com/32cmyc</a> - For Halloween I'm going to be...a little monster!!!!  I love you all so much! Celebrate yourself!
+-/: For/IN Halloween/NNP I/PRP 'm/VBP going/VBG to/TO be/VB .../: a/DT little/JJ monster/NN !/. !/. !/. !/.
+ORG:Together Little Monsters made  this video for Clarence: <a href="http://bit.ly/lWn3T3" target="_blank" class="tweet-url web" rel="nofollow">http://bit.ly/lWn3T3</a>. And...
+Together/RB Little/NNP Monsters/NNS made/VBN this/DT video/NN for/IN Clarence/NNP :/: And/CC .../:
+ORG:Sending all my little monsters little pizzas for waiting all night for me at best buy. I hope you're hungry...eat up I love u!
+I/PRP hope/NN you/PRP 're/VBP hungry/JJ .../: eat/VB up/IN I/PRP love/NN u/PRP !/.
+ORG:Saw beyonce live, from the stage. She's an amazing performer, and a beautiful person, inside and out...love a strong ass woman.xx
+She/PRP 's/POS an/DT amazing/JJ performer/NN ,/, and/CC a/DT beautiful/JJ person/NN ,/, inside/IN and/CC out/IN .../: love/NN a/DT strong/JJ ass/NNS woman/NN ./.
