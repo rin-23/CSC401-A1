@@ -2,14 +2,67 @@ import sys
 from NLPlib import *
 import re
 
+#anything more than two dots treat like an ellipsis
+reg_ellipsis = "\.[ \t]*\.(?:[ \t]*\.)*"
+reg_ellipsis_obj = re.compile(reg_ellipsis)
 
+reg_dashes = "-[ \t]*-(?:[ \t]*-)*"
+
+reg_mult_punct = "[!?\r\n]+(?:(?:\s+[!?\r\n]+)|[ \t]*\")*" #handles quote at the end
+reg_mult_punct_obj = re.compile(reg_mult_punct)
+
+reg_period = "\.(?:[ \t]*\")*[\r\n]*"
+reg_period_obj = re.compile(reg_period)
+
+abbreviations = list()
+
+#reg_multiple
 #TODO Questions
-#Handle multiple dashes
-#How many dots in the ellipses
+#elipsis after punctioation EX: But I am no nervous record!  ...
 
 #TODO Extra things
 #Add smiles support
 #add special html characters support
+
+def separate_sentences(line):
+    regex = "(" + reg_ellipsis + "|" + reg_mult_punct + "|" + reg_period + ")"
+    tokens = re.split(regex, line)
+    #tokens = map(lambda x: x.strip(), tokens)
+    tokens = filter(lambda x: x.strip() != '', tokens) #filter out empty strings
+
+    for i in range(len(tokens)):
+        if i + 1 < len(tokens):
+            token = tokens[i].strip()
+            next_token = tokens[i+1].strip()
+            first_ch = next_token[0]
+
+            if reg_ellipsis_obj.match(token):
+                #ellipsis at the beggining of the sentece
+                if i == 0 or (i > 0 and (reg_period_obj.match(tokens[i-1].strip()) or reg_mult_punct_obj.match(tokens[i-1].strip()))):
+                    if not (first_ch.isalpha() and first_ch.isupper()):
+                        tokens[i] += '\n'
+                else:
+                    if not ((first_ch.isalpha() and first_ch.islower()) or first_ch.isdigit()):
+                        tokens[i] += '\n'
+            elif reg_mult_punct_obj.match(token):
+                tokens[i] += '\n'
+            elif reg_period_obj.match(token):
+                if not (first_ch.isalpha() and first_ch.islower()):
+                    if i > 0:
+                        words = re.split(' +', tokens[i-1])
+                        if not (i > 0 and i < len(words) and  words[i-1].lower() + '.' in abbreviations):
+                            tokens[i] += '\n'
+                    else:
+                        tokens[i] += '\n'
+
+            
+        else:
+            tokens[i] += '\n'
+
+    result = "".join(tokens)
+
+    return result
+
 
 def remove_html_url(line):
      line = re.sub("@<[^<>]+?>\S+?</[^<>]+?>", '', line) #remove @username
@@ -27,65 +80,79 @@ def remove_html_special_char(line):
     return line
 
 #TODO find a better name
-def sub_html_special_char(newtoken):
-    newtoken = re.sub("&hellip;", '...', newtoken)
-    newtoken = re.sub("&mdash;", "--", newtoken)
-    return newtoken
+#def sub_html_special_char(newtoken):
+#    newtoken = re.sub("&hellip;", '...', newtoken)
+#    newtoken = re.sub("&mdash;", "--", newtoken)
+#    return newtoken
 
 def handle_ellipsis(line):
     #mark the ellipsis that indicates the end of the sentece when
     #it is not followed by the word with leading lowercase letter or a number
-
-    #print line.strip()
-    tokens = re.split("[ \t]+", line)
+    #print line
+    tokens = re.split("(\.[ \t]?\.[ \t]?\.(?:[ \t]*\.)*)", line)
+    tokens = map(lambda x: x.strip(), tokens)
+    tokens = filter(lambda x: x != '', tokens)
     #print tokens
-
-    tokens_copy = tokens[:]
-
+      
     for i in range(len(tokens)):
-        if tokens[i].strip() == "&hellip;":
+        match = re.compile("\.[ \t]?\.[ \t]?\.(?:[ \t]*\.)*").match(tokens[i])
+        if match:
+            print "MATCH!!"
             if i < len(tokens) - 1:
                 t = tokens[i+1][0]
                 if t.strip() != "":
                     if not (t.isalpha() and t.islower()) and not t.isdigit():
-                        tokens_copy[i] += "\n"
+                        tokens[i] += "\n"
 
-    #print tokens_copy
-    result =  " ".join(tokens_copy)
+    #print tokens
+    result = " ".join(tokens)
     #print result
-   
     return result
+
+def load_abbreviations():
+    abrv_1 = open("./Wordlists/abbrev.english", "r").read().split('\n')
+    abrv_2 = open("./Wordlists/pn_abbrev.english", "r").read().split('\n')
+    abrv_1.pop()
+    abrv_2.pop()
+    abbreviations =  map(lambda x : x.lower(), abrv_1 + abrv_2)
+    print abbreviations
 
 if __name__ == "__main__":
     input_fpntr = open(sys.argv[1], "r")
     output_fpntr = open(sys.argv[2], "w")
     clitics = ["'m", "'re", "'s", "'ll", "'ve", "n't"]
-    
+    load_abbreviations()
     tagger = NLPlib()
-
+    
     for line in input_fpntr:
         #output_fpntr.write('ORG:' + line + '\n') #TODO: delete
         
         #substitute ...(ellipsis) with &hellip; to avoid multiple periods
-        line = re.sub("\.[ \t]?\.[ \t]?\.[ \t]?", " &hellip; ", line)
+        #line = re.sub("\.[ \t]?\.[ \t]?\.[ \t]?(?:\.[ \t]?)*", " &hellip; ", line)
         #substitute em dash multiple dashes
-        line = re.sub("--", " &mdash; ", line)
-
+        #line = re.sub("--", " &mdash; ", line)
+        #output_fpntr.write(line+"\n")
         line = remove_html_url(line)
+        #output_fpntr.write(line+"\n")
         line = remove_html_special_char(line)
-
-        line = handle_ellipsis(line)
-
-        newlinearray = re.findall("[^.?!\n]+[.!?\r\n]+(?:(?:\s+[.!?\r\n]+)|[ \t]*\")*", line) #separate sentences in the tweet
+        #output_fpntr.write(line+"\n")
+        line = separate_sentences(line)
+        #output_fpntr.write(line)
+      
+        #line = handle_ellipsis(line)
+        #line = handle_dashes(line)
+        #print line
+        newlinearray = re.findall("[^\r\n]+?[\r\n]+?", line) #separate sentences in the tweet
+        #output_fpntr.write(str(newlinearray)+"\n")
         tokens = [re.split("[ \t]+", line.strip()) for line in newlinearray] # separate every word using space as separator
-
-        #extract words, punctiation and clitics
+#        print tokens
+#        #extract words, punctiation and clitics
         nopunctiation = []
         for sentence in tokens:
             newsentence = []
             for word in sentence:
-                newtokens = re.compile("('(?:m|re|s|ll|ve|t)|n't|&hellip;|&mdash;|[^\w\s])", re.IGNORECASE).split(word)
-                noempty = [sub_html_special_char(newtoken.strip()) for newtoken in newtokens if newtoken.strip() != '']
+                newtokens = re.compile("('(?:m|re|s|ll|ve|t)|n't|\.[ \t]?\.(?:[ \t]*\.)*|-[ \t]*-(?:[ \t]*-)*|[!?\s]+|[^\w\s])", re.IGNORECASE).split(word)
+                noempty = [newtoken.strip() for newtoken in newtokens if newtoken.strip() != '']
                 newsentence = newsentence + noempty
             if (newsentence != []): nopunctiation.append(newsentence)
 
@@ -100,9 +167,9 @@ if __name__ == "__main__":
                 output_fpntr.write(sentence[i])
                 if i != len(sentence) - 1: output_fpntr.write(' ')
             output_fpntr.write('\n')
-                
-        output_fpntr.write('|\n')
 
+        output_fpntr.write('|\n')
+        #output_fpntr.write('##########################################################\n')
     #close file pointers
     input_fpntr.close()
     output_fpntr.close()
