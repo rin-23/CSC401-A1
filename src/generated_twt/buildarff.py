@@ -27,7 +27,7 @@ def processTweetFile(twt_fpointer):
 def processResources():
     #Initialize resource to count First person pronouns
     for resource in resource_filenames:
-        words = open("./Wordlists/"+resource).read().split('\n') #TODO GET RID OF LOCAL DERICOTRIES
+        words = open("./Wordlists/"+resource).read().split('\n')
         words.pop()
         resources[resource] = map(lambda x : x.lower(), words)  
 

@@ -8,11 +8,14 @@ reg_ellipsis_obj = re.compile(reg_ellipsis)
 
 reg_dashes = "-[ \t]*-(?:[ \t]*-)*"
 
-reg_mult_punct = "[!?\r\n]+(?:(?:\s+[!?\r\n]+)|[ \t]*\")*" #handles quote at the end
+reg_mult_punct = "[!?\r\n]+(?:(?:\s+[!?\r\n]+)|[ \t]*[\"\'])*" #handles quote at the end
 reg_mult_punct_obj = re.compile(reg_mult_punct)
 
 reg_period = "\.(?:[ \t]*\")*[\r\n]*"
 reg_period_obj = re.compile(reg_period)
+
+reg_hashtag = "<[^<>]+?>#(?P<hashtag>\S+?)</[^<>]+?>"
+reg_hashtag_obj = re.compile("<[^<>]+?>#(?P<hashtag>\S+?)</[^<>]+?>")
 
 abbreviations = list()
 
@@ -25,11 +28,11 @@ abbreviations = list()
 #add special html characters support
 
 def separate_sentences(line):
+    #TODO NEED TO DO checking of a chaacter after !?
     regex = "(" + reg_ellipsis + "|" + reg_mult_punct + "|" + reg_period + ")"
     tokens = re.split(regex, line)
     #tokens = map(lambda x: x.strip(), tokens)
     tokens = filter(lambda x: x.strip() != '', tokens) #filter out empty strings
-
     for i in range(len(tokens)):
         if i + 1 < len(tokens):
             token = tokens[i].strip()
@@ -39,10 +42,10 @@ def separate_sentences(line):
             if reg_ellipsis_obj.match(token):
                 #ellipsis at the beggining of the sentece
                 if i == 0 or (i > 0 and (reg_period_obj.match(tokens[i-1].strip()) or reg_mult_punct_obj.match(tokens[i-1].strip()))):
-                    if not (first_ch.isalpha() and first_ch.isupper()):
+                    if not (first_ch.isalpha() and first_ch.isupper()): 
                         tokens[i] += '\n'
                 else:
-                    if not ((first_ch.isalpha() and first_ch.islower()) or first_ch.isdigit()):
+                    if not ((first_ch.isalpha() and first_ch.islower()) or first_ch.isdigit() or first_ch == '!' or first_ch == '?'):
                         tokens[i] += '\n'
             elif reg_mult_punct_obj.match(token):
                 tokens[i] += '\n'
@@ -50,11 +53,10 @@ def separate_sentences(line):
                 if not (first_ch.isalpha() and first_ch.islower()):
                     if i > 0:
                         words = re.split(' +', tokens[i-1])
-                        if not (i > 0 and i < len(words) and  words[i-1].lower() + '.' in abbreviations):
+                        if not (len(words) > 0 and (words[-1].lower() + '.') in abbreviations):
                             tokens[i] += '\n'
                     else:
                         tokens[i] += '\n'
-
             
         else:
             tokens[i] += '\n'
@@ -65,11 +67,16 @@ def separate_sentences(line):
 
 
 def remove_html_url(line):
-     line = re.sub("@<[^<>]+?>\S+?</[^<>]+?>", '', line) #remove @username
-     line = re.sub("<[^<>]+?>#\S+?</[^<>]+?>", '', line) #remove hashtags
-     line = re.sub("<[^<>]+?>", '', line) #remove html tags
-     line = re.sub("(?:http://|ftp://|www\.)\S+\.\S+", '', line) #remove urls
-     return line
+    #remove hashtags
+    s = reg_hashtag_obj.search(line)
+    if s: line = reg_hashtag_obj.sub(s.group("hashtag"), line)
+
+    #remove html tags
+    line = re.sub("@?<[^<>]+?>", '', line)
+
+    #TODO check what characters are allowed in the urls
+    line = re.sub("(?:https?://|ftp://|www\.)?\S+\.(?:edu|gov|int|mil|net|org|com|ca|cn)(?:/\S*)*", '', line) #remove urls
+    return line
 
 def remove_html_special_char(line):
     #substitute &quot;, &amp;, &lt; &gt; with appropriate symbol
@@ -114,14 +121,15 @@ def load_abbreviations():
     abrv_2 = open("./Wordlists/pn_abbrev.english", "r").read().split('\n')
     abrv_1.pop()
     abrv_2.pop()
-    abbreviations =  map(lambda x : x.lower(), abrv_1 + abrv_2)
-    print abbreviations
+    return  map(lambda x : x.lower(), abrv_1 + abrv_2)
+    #TODO add U.S. to abbrivations
+    #print abbreviations
 
 if __name__ == "__main__":
     input_fpntr = open(sys.argv[1], "r")
     output_fpntr = open(sys.argv[2], "w")
     clitics = ["'m", "'re", "'s", "'ll", "'ve", "n't"]
-    load_abbreviations()
+    abbreviations =  load_abbreviations()
     tagger = NLPlib()
     
     for line in input_fpntr:
@@ -151,7 +159,7 @@ if __name__ == "__main__":
         for sentence in tokens:
             newsentence = []
             for word in sentence:
-                newtokens = re.compile("('(?:m|re|s|ll|ve|t)|n't|\.[ \t]?\.(?:[ \t]*\.)*|-[ \t]*-(?:[ \t]*-)*|[!?\s]+|[^\w\s])", re.IGNORECASE).split(word)
+                newtokens = re.compile("('(?:m|re|s|ll|ve|t)|n't|#\S+|\.[ \t]?\.(?:[ \t]*\.)*|-[ \t]*-(?:[ \t]*-)*|[!?\s]+|[^\w\s])", re.IGNORECASE).split(word)
                 noempty = [newtoken.strip() for newtoken in newtokens if newtoken.strip() != '']
                 newsentence = newsentence + noempty
             if (newsentence != []): nopunctiation.append(newsentence)
